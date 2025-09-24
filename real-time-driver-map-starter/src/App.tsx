@@ -10,7 +10,7 @@ export default function App() {
       <CssBaseline />
       <Container maxWidth="lg" sx={{ py: 2 }}>
         <Typography variant="h5" gutterBottom>
-          Real-Time Driver Map (Rehearsal)
+          Real-Time Driver Map (Demo)
         </Typography>
         <Box>
           <RealTimeDriverMap

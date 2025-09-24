@@ -152,7 +152,7 @@ export default function RealTimeDriverMap({
     if (paused) return;
     dispatch({ type: "CONNECT" });
 
-    // Mock stream for rehearsal; replace with real WebSocket in prod
+    // Mock stream for demo; replace with real WebSocket in prod
     stopRef.current = startMockStream(handleMessage, { start: snap.lastKnown });
     dispatch({ type: "OPEN" });
 
